@@ -21,7 +21,9 @@ https://docs.confluent.io/kafka-connect-jdbc/current/
 开源实现已经满足了常规的需求，如果有特殊需求可以基于源码修改实现自己想要的效果
 比如当前的kafka-connect-jdbc   只支持在新建的任务时设定其同步的开始时间，如果想在现有的任务上也能指定同步的开始时间，则修改其相关逻辑
 
+
  ![image](https://user-images.githubusercontent.com/3348645/196103864-493895d7-f5e8-4378-9ac0-14c39236bdbe.png)
+ 
 
 这里只是举个例子，具体的需求怎么实现还需要综合考虑
 
